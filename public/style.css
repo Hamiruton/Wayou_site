@@ -1,0 +1,52 @@
+#logo {
+    margin-right: 250px;
+}
+
+#items_header {
+    position: relative;
+    margin: auto;
+}
+
+#logo_name {
+    position: relative;
+    margin: auto;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+
+.item {
+    font-size: 15px;
+}
+
+#body {
+    margin-top: 30px;
+}
+
+.dividing.header {
+    text-align: center;
+}
+
+.dimmable.image {
+    position: relative;
+    height: 300px;
+}
+
+footer {
+    margin-top: 50px;
+    background-color: #444;
+    height: 150px;
+    width: auto;
+}
+
+@media all and (max-width: 1024px) {
+    #logo {
+        margin-right: 70px;
+    }
+
+    #logo_name {
+        position: relative;
+        margin: auto;
+        text-transform: uppercase;
+        font-size: 40px;
+    }
+}

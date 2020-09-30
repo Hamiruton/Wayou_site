@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="header" class="ui secondary pointing menu">
+        <div class="ui grid">
+            <div class="row">
+                <div class="item" id="logo">
+                    <img class="ui tiny image" src="/images/nikelogo.jpg" alt="Logo">
+                </div>
+                <div id="logo_name">wayou shop</div>
+            </div>
+            <div class="row">
+                <div class="ui secondary menu" id="items_header">
+                    <div class="ui dropdown item">
+                        chaussures
+                        <div class="menu">
+                            <a class="item" href="">Chaussures Hommes</a>
+                            <a class="item" href="">Chaussures Femmes</a>
+                        </div>
+                    </div>
+                    <a class="item" href="">Data</a>
+                    <a class="item" href="">Data</a>
+                    <a class="item" href="">Data</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- BODY -->
+    <div id="body">
+        <!-- BODY JUMBOTRON -->
+        <div class="jumbotron">
+            <div class="ui billboard test ad">
+                <img class="ui image" src="/images/jogginghoe.jpg" alt="">   
+            </div>
+        </div>
+
+        <!-- BODY CAT #1 -->
+        <h1 class="ui dividing header" style="font-size: 50px;">CATÉGORIE HOMME</h1>
+        <div class="ui cards">
+            <div class="card">
+                <div class="blurring dimmable image">
+                    <div class="ui dimmer">
+                        <div class="center">
+                            <button class="ui inverted button">Voir Plus</button>
+                        </div>
+                    </div>
+                    <img class="ui image" src="/images/nikestyle1.jpeg" alt="">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="blurring dimmable image">
+                    <div class="ui dimmer">
+                        <div class="center">
+                            <button class="ui inverted button">Voir Plus</button>
+                        </div>
+                    </div>
+                    <img class="ui image" src="/images/boxer.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="blurring dimmable image">
+                    <div class="ui dimmer">
+                        <div class="center">
+                            <button class="ui inverted button">Voir Plus</button>
+                        </div>
+                    </div>
+                    <img class="ui image" src="/images/vetehoe.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- BODY CAT #2 -->
+        <h1 class="ui dividing header" style="font-size: 50px;">CATÉGORIE FEMME</h1>
+        <div class="ui cards">
+            <div class="fluid card">
+                <div class="blurring dimmable image">
+                    <div class="ui dimmer">
+                        <div class="center">
+                            <button class="ui inverted button">Voir Plus</button>
+                        </div>
+                    </div>
+                    <img class="ui image" src="/images/dress1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="fluid card">
+                <div class="blurring dimmable image">
+                    <div class="ui dimmer">
+                        <div class="center">
+                            <button class="ui inverted button">Voir Plus</button>
+                        </div>
+                    </div>
+                    <img class="ui image" src="/images/shoesfem1.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="fluid card">
+                <div class="blurring dimmable image">
+                    <div class="ui dimmer">
+                        <div class="center">
+                            <button class="ui inverted button">Voir Plus</button>
+                        </div>
+                    </div>
+                    <img class="ui image" src="/images/sportfem.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- FOOTER-->
+    <footer>
+        <div class="ui secondary menu">
+            <a href="#" class="item">Infos</a>
+            <a href="#" class="item">About Us</a>
+            <div class="ui dropdown item">
+                Arrivage
+                <div class="menu">
+                    <a href="" class="item">Arrivage chaussures</a>
+                    <a href="" class="item">Arrivage vêtements</a>
+                </div>
+            </div>
+            <div class="right item">
+                <div class="ui left icon input">
+                    <i class="mail icon"></i>
+                    <input type="text" placeholder="Recevoir les nouveautés">
+                </div>
+                <button class="ui teal button" style="margin-left: 5px;">Recevoir</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script>
+        $('document').ready(()=>{
+            $('.dimmable.image').dimmer({
+                on: 'hover'
+            });
+            $('.dropdown.item').dropdown({
+                on: 'hover'
+            });
+        });
+    </script>
+</body>
+</html>
